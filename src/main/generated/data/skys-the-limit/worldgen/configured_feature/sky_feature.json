@@ -1,0 +1,7 @@
+{
+  "type": "skys-the-limit:sky_feature",
+  "config": {
+    "blockID": "skys-the-limit:sky_block",
+    "height": 300
+  }
+}

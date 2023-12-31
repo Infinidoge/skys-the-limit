@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "moe.inx.skys_the_limit.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": ["HeightmapMixin", "HeightmapTypeMixin"],
+  "client": [],
+  "server": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

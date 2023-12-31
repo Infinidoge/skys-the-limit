@@ -1,0 +1,27 @@
+{
+	"schemaVersion": 1,
+	"id": "skys-the-limit",
+	"version": "${version}",
+	"name": "The Sky's The Limit",
+	"description": "The sky wasn't limiting enough, so now there is a ceiling!",
+	"authors": ["Infinidoge"],
+	"contact": {
+		"sources": "https://github.com/Infinidoge/skys-the-limit"
+	},
+	"license": "MIT",
+	"icon": "assets/skys-the-limit/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"fabric-datagen": ["moe.inx.skys_the_limit.TheSkysTheLimitDataGenerator"],
+		"main": ["moe.inx.skys_the_limit.TheSkysTheLimit"],
+		"client": ["moe.inx.skys_the_limit.TheSkysTheLimitClient"]
+	},
+	"mixins": ["skys-the-limit.mixins.json"],
+	"depends": {
+		"fabricloader": ">=0.15.0",
+		"minecraft": "~1.20.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {}
+}
